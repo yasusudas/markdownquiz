@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>Markdown Quiz</title>
+<meta name="viewport" content="width=1280" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg: #f4f6fb;
+    --bg-2: #ffffff;
+    --surface: #ffffff;
+    --ink: #0b1020;
+    --ink-2: #2a3147;
+    --ink-3: #5a6378;
+    --line: #e3e8f2;
+    --line-2: #d6deec;
+    --blue: #2456f6;
+    --blue-2: #1741d6;
+    --blue-soft: #eaf0ff;
+    --blue-ink: #0a1e6b;
+    --good: #1f8a5b;
+    --bad: #c8324a;
+    --code-bg: #0b1020;
+    --code-ink: #e6ecff;
+    --grid: rgba(36,86,246,.06);
+  }
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family: "Noto Sans JP", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    min-width: 1280px;
+    overflow-x: auto;
+  }
+  .mono{ font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-feature-settings:"liga" 0; }
+  button{ font-family: inherit; cursor: pointer; }
+  #root{ min-height: 100vh; }
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
