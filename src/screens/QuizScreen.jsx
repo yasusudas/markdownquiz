@@ -264,6 +264,7 @@ const ScoreDisplay = ({ score, total }) =>
 
 // Provide an example answer when user gives up
 function sampleAnswer(q) {
+  if (q.answer) return q.answer;
   switch (q.id) {
     case "h1":return "# はじめに";
     case "h2":return "## 目次";

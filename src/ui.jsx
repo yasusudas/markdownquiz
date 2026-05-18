@@ -5,11 +5,11 @@ import React from "react";
 // ============================================================
 
 export const Mark = ({ size = 44 }) =>
-<svg width={size} height={size} viewBox="0 0 44 44" aria-hidden="true">
-    <rect x="1" y="1" width="42" height="42" rx="9" fill="#0b1020" />
-    <rect x="1" y="1" width="42" height="42" rx="9" fill="none" stroke="#2456f6" strokeWidth="1.5" />
-    <path d="M9 31 V13 L15 20 L21 13 V31" stroke="#e6ecff" strokeWidth="2.2" fill="none" strokeLinejoin="round" strokeLinecap="round" />
-    <path d="M30 13 V27 M25 22 L30 27 L35 22" stroke="#2456f6" strokeWidth="2.2" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+<svg width={size} height={size} viewBox="0 0 160 160" aria-hidden="true">
+    <rect x="16" y="16" width="128" height="128" rx="28" fill="#0b1020" />
+    <rect x="16" y="16" width="128" height="128" rx="28" fill="none" stroke="#2456f6" strokeWidth="5" />
+    <path d="M48 112V58L66 80L84 58V112" stroke="#e6ecff" strokeWidth="7" fill="none" strokeLinejoin="round" strokeLinecap="round" />
+    <path d="M112 58V110M94 93L112 111L130 93" stroke="#2456f6" strokeWidth="7" fill="none" strokeLinejoin="round" strokeLinecap="round" />
   </svg>;
 
 

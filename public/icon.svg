@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Markdown Quiz icon</title>
+  <desc id="desc">A dark rounded square with a white M and a blue downward arrow.</desc>
+  <rect x="16" y="16" width="128" height="128" rx="28" fill="#0b1020"/>
+  <rect x="16" y="16" width="128" height="128" rx="28" fill="none" stroke="#2456f6" stroke-width="5"/>
+  <path d="M48 112V58L66 80L84 58V112" fill="none" stroke="#e6ecff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M112 58V110M94 93L112 111L130 93" fill="none" stroke="#2456f6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
