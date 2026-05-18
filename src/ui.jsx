@@ -13,7 +13,7 @@ export const Mark = ({ size = 44 }) =>
   </svg>;
 
 
-export const TopBar = ({ route, onHome }) =>
+export const TopBar = ({ onHome }) =>
 <header style={{
   display: "flex", alignItems: "center", justifyContent: "space-between",
   padding: "22px 56px", borderBottom: "1px solid var(--line)",
@@ -29,25 +29,7 @@ export const TopBar = ({ route, onHome }) =>
         <div style={{ fontSize: 18, fontWeight: 700, letterSpacing: ".02em", marginTop: 2 }}>Markdownクイズ</div>
       </div>
     </button>
-    <nav style={{ display: "flex", alignItems: "center", gap: 8 }}>
-      <Crumb active={route === "start"}>HOME</Crumb>
-      <Sep />
-      <Crumb active={route === "quiz"}>QUIZ</Crumb>
-      <Sep />
-      <Crumb active={route === "dict"}>記法事典</Crumb>
-    </nav>
   </header>;
-
-
-const Crumb = ({ active, children }) =>
-<span className="mono" style={{
-  fontSize: 11, letterSpacing: ".22em",
-  color: active ? "var(--blue)" : "var(--ink-3)",
-  fontWeight: active ? 600 : 400
-}}>{children}</span>;
-
-const Sep = () =>
-<span className="mono" style={{ color: "var(--line-2)", fontSize: 11 }}>/</span>;
 
 
 export const PrimaryBtn = ({ onClick, children, disabled, style }) =>
