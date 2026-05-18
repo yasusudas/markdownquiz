@@ -57,7 +57,3 @@ src/
     QuizScreen.jsx        クイズ画面
     DictScreen.jsx        記法事典画面
 ```
-
-## Notes
-
-このアプリは学習用の簡易 Markdown レンダラーを内蔵しています。一般的な Markdown パーサーの完全互換を目指すものではなく、クイズで扱う基本記法に絞って表示します。
